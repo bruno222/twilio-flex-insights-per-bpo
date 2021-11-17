@@ -1,6 +1,6 @@
-## What
+## What is this
 
-This plugin is part of this Blog Post (TODO: ADD URL) on how you can segregate the view of Flex Insights per BPO.
+This Flex Plugin is part of this Blog Post (TODO: ADD URL) on how you can segregate the view of Flex Insights per BPO.
 
 It is better to follow the steps from the Post, as this plugin here is latest step you be working on.
 
