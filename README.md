@@ -1,31 +1,25 @@
-# Your custom Twilio Flex Plugin
+## What
 
-Twilio Flex Plugins allow you to customize the appearance and behavior of [Twilio Flex](https://www.twilio.com/flex). If you want to learn more about the capabilities and how to use the API, check out our [Flex documentation](https://www.twilio.com/docs/flex).
+This plugin is part of this Blog Post (TODO: ADD URL) on how you can segregate the view of Flex Insights per BPO.
 
-## Setup
+It is better to follow the steps from the Post, as this plugin here is latest step you be working on.
 
-Make sure you have [Node.js](https://nodejs.org) as well as [`npm`](https://npmjs.com). We support Node >= 10.12 (and recommend the _even_ versions of Node). Afterwards, install the dependencies by running `npm install`:
+## How to install and test locally
 
-```bash
-cd 
+Assuming you already have `twilio` cli, then:
 
-# If you use npm
-npm install
-```
+1. `npm install`
+2. `npm start`
 
-Next, please install the [Twilio CLI](https://www.twilio.com/docs/twilio-cli/quickstart) by running:
+That is it, a new browser tab on `http://localhost:3000` should open with this Plugin running.
 
-```bash
-brew tap twilio/brew && brew install twilio
-```
+## What needs to be changed before deploying?
 
-Finally, install the [Flex Plugin extension](https://github.com/twilio-labs/plugin-flex/tree/v1-beta) for the Twilio CLI:
+[This line](https://github.com/bruno222/twilio-flex-insights-per-bpo/blob/main/src/FlexInsightsPerBpoPlugin.tsx#L18) is all you have to update to have this Plugin working.
 
-```bash
-twilio plugins:install @twilio-labs/plugin-flex@beta
-```
+## How to Deploy this Plugin?
 
-## Development
+Like any other Flex Plugin! In short:
 
-Run `twilio flex:plugins --help` to see all the commands we currently support. For further details on Flex Plugins refer to our documentation on the [Twilio Docs](https://www.twilio.com/docs/flex/developer/plugins/cli) page.
-
+1. `twilio flex:plugins:build`
+2. `twilio flex:plugins:deploy --changelog "first deploy"`
