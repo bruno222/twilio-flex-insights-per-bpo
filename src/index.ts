@@ -1,4 +1,4 @@
 import * as FlexPlugin from 'flex-plugin';
-import FlexInsightsInsightsPerBpoPlugin from './FlexInsightsInsightsPerBpoPlugin';
+import FlexInsightsInsightsPerBpoPlugin from './FlexInsightsPerBpoPlugin';
 
 FlexPlugin.loadPlugin(FlexInsightsInsightsPerBpoPlugin);

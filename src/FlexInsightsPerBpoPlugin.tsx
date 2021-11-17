@@ -5,7 +5,7 @@ import BpoReportsButton from './components/BpoReportsButton';
 
 const PLUGIN_NAME = 'FlexInsightsInsightsPerBpoPlugin';
 
-export default class FlexInsightsInsightsPerBpoPlugin extends FlexPlugin {
+export default class FlexInsightsPerBpoPlugin extends FlexPlugin {
   constructor() {
     super(PLUGIN_NAME);
   }
