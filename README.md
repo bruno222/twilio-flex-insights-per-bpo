@@ -2,8 +2,6 @@
 
 This Flex Plugin shows how you can segregate the view of Flex Insights per BPO.
 
-It is better to follow the steps from the Post, as this plugin here is latest step you be working on.
-
 ## How to install and test locally
 
 Assuming you already have `twilio` cli, then:
