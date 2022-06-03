@@ -1,4 +1,4 @@
-import * as FlexPlugin from 'flex-plugin';
+import * as FlexPlugin from '@twilio/flex-plugin';
 import FlexInsightsInsightsPerBpoPlugin from './FlexInsightsPerBpoPlugin';
 
 FlexPlugin.loadPlugin(FlexInsightsInsightsPerBpoPlugin);
